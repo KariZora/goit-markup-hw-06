@@ -233,6 +233,10 @@ color: var(--title-dark-theme-color);
 background-color: var(--accent-color);
 }
 
+.hero-btn:focus {
+    outline: none;
+}
+
 .hero-btn {
     display: block;
     margin-left: auto;
@@ -292,6 +296,7 @@ background-color: var(--accent-color);
 
 .close-form-button:hover {
     cursor: pointer;
+    outline: none;
 }
 
 .close-form-button {
@@ -358,6 +363,7 @@ background-color: var(--accent-color);
     padding-bottom: 11px;
     padding-right: 42px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
 }
 
 .hero-form-input:focus + .hero-form-label,
@@ -401,6 +407,7 @@ padding-left: 16px;
     padding-right: 16px;
     margin-bottom: 20px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
 }
 
 .checkbox-div {
@@ -471,6 +478,11 @@ border-radius: 4px;
 margin-left: auto;
 margin-right: auto;
 cursor: pointer;
+border-color: transparent;
+}
+
+.hero-button-form:focus {
+    outline: none;
 }
 
 .hero-btn-form-p {
